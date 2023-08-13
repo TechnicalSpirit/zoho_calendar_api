@@ -1,0 +1,14 @@
+{
+    "name": "zoho/calendar_api",
+    "description": "One of the many libraries to communicate with the Zoho Calendar API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Zoho\\Api\\Calendar\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "*",
+        "ext-json": "*"
+    }
+}

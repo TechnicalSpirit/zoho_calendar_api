@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  webserver:
+    container_name: "for_zoho_api_debug"
+    build:
+      context: .
+      dockerfile: "./docker/php/Dockerfile"
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www/html
+      - ./docker/php/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
