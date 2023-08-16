@@ -35,6 +35,7 @@ class Settings extends BaseSection
      *
      * @link https://www.zoho.com/calendar/help/api/put-update-calendar-settings.html
      *
+     * @param array $settingsData
      * @return ResponseInterface
      * @throws GuzzleException
      */

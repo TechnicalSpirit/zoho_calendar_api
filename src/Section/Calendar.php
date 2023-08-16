@@ -89,7 +89,8 @@ class Calendar extends BaseSection
      * @return ResponseInterface
      * @throws GuzzleException
      */
-    public function updateCalendar(string $calendarUid, array $calendarData): ResponseInterface
+    public function updateCalendar(string $calendarUid,
+                                   array $calendarData): ResponseInterface
     {
         return $this->zohoClient->secureRequest(function () use ($calendarUid, $calendarData) {
             return $this->zohoClient->client->put(

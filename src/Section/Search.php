@@ -45,7 +45,6 @@ class Search extends BaseSection
     public function getEventThroughSearch(string $caluId,
                                           array  $searchParameters): ResponseInterface
     {
-        //TODO: куда дивать $searchData в запрос
         return $this->zohoClient->secureRequest(function () use ($caluId, $searchParameters) {
             return $this->zohoClient->client->get(
                 "https://calendar.zoho.com/api/v1/calendars/$caluId/search?".http_build_query($searchParameters),

@@ -13,7 +13,7 @@ class SmartAdd extends BaseSection
      *
      * @link https://www.zoho.com/calendar/help/api/post-create-event-smart-add.html
      *
-     * @param string $title
+     * @param string $saddtext
      * @return ResponseInterface
      * @throws GuzzleException
      */

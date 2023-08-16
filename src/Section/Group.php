@@ -9,7 +9,7 @@ use Zoho\Api\Calendar\Section\Base\BaseSection;
 class Group extends BaseSection
 {
     /**
-     *To get the list of all group calendars.
+     * To get the list of all group calendars.
      *
      * @link https://www.zoho.com/calendar/help/api/get-group-calendar-list.html
      *
