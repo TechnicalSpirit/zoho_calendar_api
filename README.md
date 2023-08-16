@@ -2,6 +2,26 @@
 
 it's a library for interacting with one of the many zoho applications - zoho calendar.
 
+## How to install this package to your project ?
+
+Add this text to composer.json
+```
+    "require": {
+        "zoho/calendar_api": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/TechnicalSpirit/zoho_calendar_api"
+        }
+    ]
+```
+
+Write this command to console
+```
+    composer update
+```
+
 ## Example
 ```php
 $api_config = [
